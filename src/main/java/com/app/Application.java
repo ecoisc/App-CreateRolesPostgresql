@@ -17,11 +17,11 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		String jdbcUrl ="jdbc:postgresql://localhost:5432/mydatabase";
-		String username = "postgres";
-		String password = "admin123";
+		String jdbcUrl ="jdbc:postgresql://localhost:5432/mydatabasehere";
+		String username = "myuserhere";
+		String password = "mypasswordhere";
 		try {
-			File myObj = new File("C:\\backu.sql");
+			File myObj = new File("C:\\backuphere.sql");
 			Scanner myReader = new Scanner(myObj);
 			ArrayList<String> list = new ArrayList<String>();
 
